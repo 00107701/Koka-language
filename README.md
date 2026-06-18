@@ -105,13 +105,3 @@ Each `.jack` file is translated into a corresponding `.vm` file written in the i
 
 The compiler then takes all generated `.vm` files and combines them into a single `.asm` assembly file.
 
-### What We Learned
-
-Working with Koka on this project provided hands-on experience with:
-
-* Functional-style compiler construction
-* File I/O modules
-* String manipulation
-* Algebraic data types
-* Parsing, transforming, and generating code
-
