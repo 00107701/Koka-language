@@ -32,15 +32,17 @@ Koka is a functional language at its core:
 * Functions are first-class values
 * Data is immutable by default
 * Pure functions are preferred
-* Supports algebraic data types
-* Supports pattern matching
 * Supports higher-order functions
 
 ### Static & Strong Type System
 
-* Types are checked at compile time
-* No automatic type conversions
-* Type inference is built in, so explicit annotations are often unnecessary
+Koka uses a **static type system**, meaning all types are checked at compile time. 
+This allows the compiler to catch type errors early, before the program is executed.
+
+Koka also has a **strong type system**, which means there are no automatic conversions between different types. 
+Every value must strictly match its expected type, and any conversion must be done explicitly.
+
+Type inference is built in, so explicit annotations are often unnecessary
 
 ### Memory Management
 
