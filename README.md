@@ -105,3 +105,8 @@ Each `.jack` file is translated into a corresponding `.vm` file written in the i
 
 The compiler then takes all generated `.vm` files and combines them into a single `.asm` assembly file.
 
+---
+
+Thanks to the course team for the guidance and interesting challenges throughout the semester.
+#### Isca Fitousi & Avital Orenstin
+
