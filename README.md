@@ -46,9 +46,14 @@ Type inference is built in, so explicit annotations are often unnecessary
 
 ### Memory Management
 
-Koka uses *Perceus* reference counting.
 
-The compiler automatically inserts allocation and deallocation code only where needed. When an object is uniquely owned, it can be mutated in-place (FBIP), providing performance close to imperative languages while preserving memory safety.
+Koka uses **Perceus reference counting**, an optimized form of reference counting for memory management instead of a garbage collector.
+
+The compiler automatically inserts allocation and deallocation operations only where they are needed, reducing unnecessary runtime overhead.
+
+When an object has **unique ownership**, Koka enables **FBIP (Fast Borrow In Place)**, allowing in-place updates instead of copying data.
+
+This results in efficient memory usage and performance close to imperative languages, while still maintaining memory safety.
 
 ---
 
