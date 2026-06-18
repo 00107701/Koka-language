@@ -64,12 +64,10 @@ This results in efficient memory usage and performance close to imperative langu
 | Immutable value      | `val x = 42`                                     |
 | Mutable variable     | `var x := 42`                                    |
 | Function definition  | `fun double(x: int): int { x * 2 }`              |
-| Pattern matching     | `match list { Nil -> ... \| Cons(h, t) -> ... }` |
 | Lambda               | `fn(x) x * 2`                                    |
 | String concatenation | `"hello" ++ " world"`                            |
 | List concatenation   | `[1,2] ++ [3,4]`                                 |
 
-> **Important:** Koka is indentation-sensitive. Indentation mistakes often appear as unrelated syntax errors rather than explicit indentation errors.
 
 ---
 
@@ -84,7 +82,7 @@ This results in efficient memory usage and performance close to imperative langu
 
 ### Weaknesses
 
-* Steep learning curve, especially around the effect system
+* language with advanced concepts - effect types
 * Limited documentation and learning resources
 * Primarily a research language rather than a general-purpose language
 * Some documented features are not actually implemented (e.g., random number generation)
